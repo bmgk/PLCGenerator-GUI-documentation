@@ -31,6 +31,12 @@ module.exports = {
           label: 'Docs',
           position: 'left',
         },
+        {
+          to: 'blog/',
+          activeBasePath: 'blog',
+          label: 'Manual',
+          position: 'left',
+        },
         // Please keep GitHub link to the right for consistency.
         {
           href:
