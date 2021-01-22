@@ -9,12 +9,12 @@
 
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1', 'doc2', 'doc3'],
+    Docusaurus: ['doc1'],
     Features: [
       {
         'Program Blocks':[
           {
-            OB:['features/Program blocks/OB/OB1'],
+            OB:['features/program blocks/ob/OB1'],
             Safety:['features/program blocks/safety/ARG',
             'features/program blocks/safety/SK',
             'features/program blocks/safety/NOT_HALT_ANTRIEBE',
