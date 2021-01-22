@@ -10,6 +10,18 @@
 module.exports = {
   someSidebar: {
     Docusaurus: ['doc1', 'doc2', 'doc3'],
-    Features: ['mdx'],
+    Features: [
+      {
+        'Program Blocks':[
+          {
+            OB:['features/Program blocks/OB/OB1'],
+            Safety:['features/program blocks/safety/ARG',
+            'features/program blocks/safety/SK',
+            'features/program blocks/safety/NOT_HALT_ANTRIEBE',
+            'features/program blocks/safety/LAST_SK']        
+          }
+        ]
+      }
+    ]
   },
 };
