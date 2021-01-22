@@ -8,18 +8,18 @@
  */
 
 module.exports = {
-  title: 'PLCGenerator',
-  tagline: 'Documentation for PLCGenerator application',
+  title: 'VASS6 PLC Creator',
+  tagline: 'Documentation for VASS6 PLC Creator application',
   url: 'https://plcgenerator-documentation.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
-  organizationName: 'bartoszgolebiowski', // Usually your GitHub org/user name.
+  organizationName: 'BMGK', // Usually your GitHub org/user name.
   projectName: 'PLCGenerator-GUI-documentation', // Usually your repo name.
   themeConfig: {
     navbar: {
-      title: 'PLCGenerator',
+      title: 'VASS6 PLC Creator',
       logo: {
         alt: 'PLCGenerator Logo',
         src: 'img/logo.svg',
@@ -35,6 +35,12 @@ module.exports = {
           to: 'blog/',
           activeBasePath: 'blog',
           label: 'Manual',
+          position: 'left',
+        },
+        {
+          to: 'changelog/',
+          activeBasePath: 'changelog',
+          label: 'Changelog',
           position: 'left',
         },
         // Please keep GitHub link to the right for consistency.

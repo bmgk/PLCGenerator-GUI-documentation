@@ -7,7 +7,7 @@ Block for servicing Emeregency Stops
 
 ---
 
-# PLC 
+## PLC 
 
 On Start generated is logic for 'Not-Halt Bedienstation Gesamt'. Panels and other common Emergency stops. 
 
@@ -15,22 +15,22 @@ On Start generated is logic for 'Not-Halt Bedienstation Gesamt'. Panels and othe
 
 ---
 
-# Zone
+## Zone
 
 For each zone prepared is pack of 'Not-Halt' 
 
-## Stations  
+### Stations  
 
 <img src={'\\assets\\docs\\features\\program blocks\\Safety\\NOT_HALT_ANTRIEBE\\Stations.jpg'}/>
 
 
-## Robots
+### Robots
 
 <img src={'\\assets\\docs\\features\\program blocks\\Safety\\NOT_HALT_ANTRIEBE\\Robots.jpg'}/>
 
 ---
 
-# Gesamt
+## Gesamt
 
 After Zones generated is summary networks  
 
@@ -42,4 +42,3 @@ On end logic for 'Antriebe Ein'
 <img src={'\\assets\\docs\\features\\program blocks\\Safety\\NOT_HALT_ANTRIEBE\\AntriebeEin.jpg'}/>
 
 ---
-
