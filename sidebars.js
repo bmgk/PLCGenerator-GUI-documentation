@@ -22,6 +22,23 @@ module.exports = {
           }
         ]
       }
+    ],
+    Configuration: [
+      {
+        PLC:['configuration/plc/Communication'],
+        Robots:['configuration/robots/Fertigmeldung',
+        'configuration/robots/Inverter',
+        'configuration/robots/StellungFreigabe',
+        'configuration/robots/Tools',
+        'configuration/robots/WerkzeugFreigabe'],
+        Safety:['configuration/safety/MobilePanel',
+        'configuration/safety/RollGate'],
+        Stations:['configuration/stations/Fertigmeldung'],
+        Inverters:['configuration/inverters/Controller',
+          'configuration/inverters/Technology',
+          'configuration/inverters/PositionSensor'],
+        Sensors:['configuration/sensors/Part'],
+      }
     ]
   },
 };

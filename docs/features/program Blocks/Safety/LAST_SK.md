@@ -3,15 +3,13 @@ id: LAST_SK
 title: LAST_SK
 ---
 
-You can write JSX and use React components within your Markdown thanks to [MDX](https://mdxjs.com/).
+In this FB is defined behavior of safety zone.
 
-export const Highlight = ({children, color}) => ( <span style={{
-      backgroundColor: color,
-      borderRadius: '2px',
-      color: '#fff',
-      padding: '0.2rem',
-    }}>{children}</span> );
+# Mobile Panel
 
-<Highlight color="#25c2a0">Docusaurus green</Highlight> and <Highlight color="#1877F2">Facebook blue</Highlight> are my favorite colors.
+Prepared logic for zusti.
 
-I can write **Markdown** alongside my _JSX_!
+<img src={'\\assets\\docs\\features\\program blocks\\safety\\Last_SK\\MobilePanel.jpg'}/>
+
+To change place of generation see [Configuration](../../../configuration/safety/MobilePanel).
+
