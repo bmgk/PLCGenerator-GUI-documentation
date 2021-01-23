@@ -10,31 +10,28 @@
 module.exports = {
   someSidebar: {
     Docusaurus: ['doc1'],
-    Features: [
+    Generation: [
       {
         'Program Blocks':[
           {
-            OB:['features/program blocks/ob/OB1'],
-            Safety:['features/program blocks/safety/ARG',
-            'features/program blocks/safety/SK',
-            'features/program blocks/safety/NOT_HALT_ANTRIEBE',
-            'features/program blocks/safety/LAST_SK'],
-            POT:['features/program blocks/pot/POT'],      
-            Grundfunktionen:['features/program blocks/grundfunktionen/Grundfunktionen'],     
-            Vorwahlen:['features/program blocks/vorwahlen/Vorwahlen'],
-            Betriebsarten:['features/program blocks/betriebsarten/Betriebsarten'],
-            Stationen:['features/program blocks/stationen/Stationen'],
-            Roboter:['features/program blocks/roboter/Roboter'],
-            Schnittstellen:['features/program blocks/schnittstellen/Schnittstellen'],
+            OB:['generation/program blocks/ob/OB1'],
+            Safety:['generation/program blocks/safety/ARG',
+            'generation/program blocks/safety/SK',
+            'generation/program blocks/safety/NOT_HALT_ANTRIEBE',
+            'generation/program blocks/safety/LAST_SK'],
+            POT:['generation/program blocks/pot/POT'],      
+            Grundfunktionen:['generation/program blocks/grundfunktionen/Grundfunktionen'],     
+            Vorwahlen:['generation/program blocks/vorwahlen/Vorwahlen'],
+            Betriebsarten:['generation/program blocks/betriebsarten/Betriebsarten'],
+            Stationen:['generation/program blocks/stationen/Stationen'],
+            Roboter:['generation/program blocks/roboter/Roboter'],
+            Schnittstellen:['generation/program blocks/schnittstellen/Schnittstellen'],
           }
         ],
-        Tags:[
-          {
-            Communication:['features/tags/communication/Communication'],
-            Inverters:['features/tags/inverters/Inverters'],
-            Robots:['features/tags/robots/Robots'],
-            Sick:['features/tags/sick/Sick']
-          }
+        Tags:['generation/tags/Communication',
+        'generation/tags/Inverters',
+        'generation/tags/Robots',
+        'generation/tags/Sick'
         ]
       }
     ],
@@ -48,12 +45,22 @@ module.exports = {
         'configuration/robots/WerkzeugFreigabe'],
         Safety:['configuration/safety/MobilePanel',
         'configuration/safety/RollGate'],
-        Stations:['configuration/stations/Fertigmeldung'],
-        Inverters:['configuration/inverters/Controller',
-          'configuration/inverters/Technology',
-          'configuration/inverters/PositionSensor'],
-        Sensors:['configuration/sensors/Part'],
+        Stations:['configuration/stations/Fertigmeldung',
+          {
+            Inverters:['configuration/inverters/Controller',
+            'configuration/inverters/Technology',
+            'configuration/inverters/PositionSensor'],
+            Sensors:['configuration/sensors/Part'],
+          }
+        ]       
       }
+    ],
+    SpsMatrix:[
+      'spsMatrix/Tools',
+      'spsMatrix/Fertigmeldung',
+      'spsMatrix/Interlock',
+      'spsMatrix/StellungFreigabe',
+      'spsMatrix/WerkzeugFreigabe'
     ]
   },
 };
