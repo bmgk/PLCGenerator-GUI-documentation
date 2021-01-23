@@ -18,4 +18,4 @@ This parameter is used to manage Robot Interlocks.
 | Index             | Interlock index (1-16) (each index can be used only one).               
 | Robot             | Target robot.  
 
-Information aboout interlocks is generated also in [Robot Tags](../../generation/tags/Robots).
+In [Robot Tags](../../generation/tags/Robots) exist address scope for interlocks.

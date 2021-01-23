@@ -5,6 +5,14 @@ title: Controller
 
 ## Description
 
-When in line exist more than one PLC is recommended to set for each communication address scope.
+Parameter is used to define controlled type.
 
-<img src={'\\assets\\docs\\configuration\\inverters\\Controller.jpg'}/>
+<img src={'\\assets\\docs\\configuration\\stations\\inverters\\Controller.jpg'}/>
+
+## Definition
+
+| Name              |      Value
+| -------------     | :-----------:
+| Type              | Controller type (Adding more types soon)
+
+

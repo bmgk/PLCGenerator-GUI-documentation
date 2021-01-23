@@ -1,6 +1,0 @@
----
-id: PositionSensor
-title: PositionSensor
----
-
-

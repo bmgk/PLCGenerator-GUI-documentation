@@ -49,7 +49,7 @@ module.exports = {
           {
             Inverters:['configuration/stations/inverters/Controller',
             'configuration/stations/inverters/Technology',
-            'configuration/stations/inverters/PositionSensor'],
+            'configuration/stations/inverters/Position'],
             Sensors:['configuration/stations/sensors/Part'],
           }
         ]       
