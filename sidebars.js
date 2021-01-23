@@ -38,27 +38,27 @@ module.exports = {
     Configuration: [
       {
         PLC:['configuration/plc/Communication'],
-        Robots:['configuration/robots/Fertigmeldung',
-        'configuration/robots/Inverter',
-        'configuration/robots/StellungFreigabe',
-        'configuration/robots/Tools',
-        'configuration/robots/WerkzeugFreigabe'],
         Safety:['configuration/safety/MobilePanel',
         'configuration/safety/RollGate'],
+        Robots:['configuration/robots/Fertigmeldung',
+        'configuration/robots/Interlock',
+        'configuration/robots/Tools',
+        'configuration/robots/StellungFreigabe',        
+        'configuration/robots/WerkzeugFreigabe'],       
         Stations:['configuration/stations/Fertigmeldung',
           {
-            Inverters:['configuration/inverters/Controller',
-            'configuration/inverters/Technology',
-            'configuration/inverters/PositionSensor'],
-            Sensors:['configuration/sensors/Part'],
+            Inverters:['configuration/stations/inverters/Controller',
+            'configuration/stations/inverters/Technology',
+            'configuration/stations/inverters/PositionSensor'],
+            Sensors:['configuration/stations/sensors/Part'],
           }
         ]       
       }
     ],
     SpsMatrix:[
-      'spsMatrix/Tools',
       'spsMatrix/Fertigmeldung',
       'spsMatrix/Interlock',
+      'spsMatrix/Tools',
       'spsMatrix/StellungFreigabe',
       'spsMatrix/WerkzeugFreigabe'
     ]

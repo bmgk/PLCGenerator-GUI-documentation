@@ -11,7 +11,7 @@ When in line exist more than one PLC is recommended to set for each communicatio
 
 ---
 
-## Parameters
+## Definition
 
 | Name          |      Value
 | ------------- | :-----------:

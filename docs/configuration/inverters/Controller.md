@@ -1,6 +1,0 @@
----
-id: Controller
-title: Controller
----
-
-

@@ -38,8 +38,8 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'changelog/',
-          activeBasePath: 'changelog',
+          to: 'blog/',
+          activeBasePath: 'blog',
           label: 'Changelog',
           position: 'left',
         },
