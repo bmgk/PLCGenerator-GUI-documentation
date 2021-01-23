@@ -15,4 +15,4 @@ Parameter is used to define Technology type.
 | -------------     | :-----------:
 | Type              | Technology type (Adding more types soon)
 
-In [Inverter Tags](../../generation/tags/Inverters) according the Technology symbols is generated.
+In [Inverter Tags](../../../generation/tags/Inverters) according the Technology symbols is generated.
