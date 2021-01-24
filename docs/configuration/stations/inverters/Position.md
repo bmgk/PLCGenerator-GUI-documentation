@@ -7,7 +7,9 @@ title: Position
 
 Parameter is used to define Inverter positions.
 
-<img src={'\\assets\\docs\\configuration\\stations\\inverters\\Position.jpg'}/>
+![img](../../../../assets/docs/configuration/stations/inverters/Position.jpg)
+
+---
 
 ## Definition
 

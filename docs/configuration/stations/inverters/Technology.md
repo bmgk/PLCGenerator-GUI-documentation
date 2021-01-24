@@ -7,7 +7,9 @@ title: Technology
 
 Parameter is used to define Technology type.
 
-<img src={'\\assets\\docs\\configuration\\stations\\inverters\\Technology.jpg'}/>
+![img](../../../../assets/docs/configuration/stations/inverters/Technology.jpg)
+
+---
 
 ## Definition
 

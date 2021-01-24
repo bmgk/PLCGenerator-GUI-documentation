@@ -7,7 +7,7 @@ title: Tools
 
 This parameter is used to manage Robot Interlocks.
 
-<img src={'\\assets\\docs\\configuration\\robots\\Tools.jpg'}/>
+![img](../../../assets/docs/configuration/robots/Tools.jpg)
 
 ---
 

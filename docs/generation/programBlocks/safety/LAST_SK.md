@@ -9,7 +9,7 @@ In this FB is defined behavior of safety zone.
 
 Prepared logic for zusti.
 
-<img src={'\\assets\\docs\\features\\program blocks\\safety\\Last_SK\\MobilePanel.jpg'}/>
+![img](../../../../assets/docs/generation/programBlocks/safety/last_SK/MobilePanel.jpg)
 
 To change place of generation see [Configuration](../../../configuration/safety/MobilePanel).
 

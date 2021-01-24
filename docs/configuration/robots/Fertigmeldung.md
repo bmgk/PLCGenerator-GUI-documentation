@@ -7,7 +7,7 @@ title: Fertigmeldung
 
 This parameter is used to add the robot's FM
 
-<img src={'\\assets\\docs\\configuration\\robots\\Fertigmeldung.jpg'}/>
+![img](../../../assets/docs/configuration/robots/Fertigmeldung.jpg)
 
 ---
 

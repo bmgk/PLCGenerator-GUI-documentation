@@ -7,7 +7,9 @@ title: RollGate
 
 Parameter is used to select where RoolGate should be generate.
 
-<img src={'\\assets\\docs\\configuration\\safety\\RollGate.jpg'}/>
+![img](../../../assets/docs/configuration/safety/RollGate.jpg)
+
+---
 
 ## Definition
 

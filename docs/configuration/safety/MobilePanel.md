@@ -7,7 +7,9 @@ title: Mobile Panel
 
 Parameter is used to select for which zone belongs mobile panel.
 
-<img src={'\\assets\\docs\\configuration\\safety\\MobilePanel.jpg'}/>
+![img](../../../assets/docs/configuration/safety/MobilePanel.jpg)
+
+---
 
 ## Definition
 

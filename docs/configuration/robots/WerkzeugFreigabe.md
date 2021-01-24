@@ -7,7 +7,7 @@ title: WerkzeugFreigabe
 
 This parameter is used to define robot's 'WerkzeugFreigabe'.
 
-<img src={'\\assets\\docs\\configuration\\robots\\WerkzeugFreigabe.jpg'}/>
+![img](../../../assets/docs/configuration/robots/WerkzeugFreigabe.jpg)
 
 ---
 

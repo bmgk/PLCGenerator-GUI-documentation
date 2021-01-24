@@ -7,7 +7,9 @@ title: Controller
 
 Parameter is used to define controlled type.
 
-<img src={'\\assets\\docs\\configuration\\stations\\inverters\\Controller.jpg'}/>
+![img](../../../../assets/docs/configuration/stations/inverters/Controller.jpg)
+
+---
 
 ## Definition
 

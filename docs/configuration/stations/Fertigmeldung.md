@@ -7,7 +7,7 @@ title: Fertigmeldung
 
 This parameter is used to add the station's FM
 
-<img src={'\\assets\\docs\\configuration\\stations\\Fertigmeldung.jpg'}/>
+![img](../../../assets/docs/configuration/stations/Fertigmeldung.jpg)
 
 ---
 

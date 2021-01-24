@@ -7,7 +7,7 @@ title: Interlock
 
 This parameter is used to manage Robot Interlocks.
 
-<img src={'\\assets\\docs\\configuration\\robots\\Interlock.jpg'}/>
+![img](../../../assets/docs/configuration/robots/Interlock.jpg)
 
 ---
 

@@ -7,7 +7,7 @@ title: StellungFreigabe
 
 This parameter is used to define robot's 'StellungFreigabe'.
 
-<img src={'\\assets\\docs\\configuration\\robots\\StellungFreigabe.jpg'}/>
+![img](../../../assets/docs/configuration/robots/StellungFreigabe.jpg)
 
 ---
 

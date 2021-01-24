@@ -4,4 +4,4 @@ title: OB1
 ---
 Creator prepare full main organization blocks with all neccessary function calls.
 
-<img src={'\\assets\\docs\\features\\program Blocks\\OB\\OB1.jpg'}/>
+![img](../../../../assets/docs/generation/programBlocks/ob/OB1.jpg)

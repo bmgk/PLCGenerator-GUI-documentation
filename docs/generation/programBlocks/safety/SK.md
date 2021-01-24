@@ -11,9 +11,9 @@ In this FB is generated blocks for servicing safety elements of zone.
 
 On start is generated F_FRG for all 'Scanner' and 'Lichtvorhang'.
 
-<img src={'\\assets\\docs\\features\\program blocks\\Safety\\SK\\PLS.jpg'}/>
+![img](../../../../assets/docs/generation/programBlocks/safety/sk/PLS.jpg)
 
-<img src={'\\assets\\docs\\features\\program blocks\\Safety\\SK\\LVU.jpg'}/>
+![img](../../../../assets/docs/generation/programBlocks/safety/sk/LVU.jpg)
 
 ---
 
@@ -21,7 +21,7 @@ On start is generated F_FRG for all 'Scanner' and 'Lichtvorhang'.
 
 If zone contain 'Schutzfenster' for each is generated 'geschlosssen' logic
 
-<img src={'\\assets\\docs\\features\\program blocks\\Safety\\SK\\RollGate.jpg'}/>
+![img](../../../../assets/docs/generation/programBlocks/safety/sk/RollGate.jpg)
 
 ---
 
@@ -29,10 +29,10 @@ If zone contain 'Schutzfenster' for each is generated 'geschlosssen' logic
 
 In SK blocks on end is generated 'Freigabe Schutzkreis' logic with all doors for zone.
 
-<img src={'\\assets\\docs\\features\\program blocks\\Safety\\SK\\Doors.jpg'}/>
+![img](../../../../assets/docs/generation/programBlocks/safety/sk/Doors.jpg)
 
 ### Zuhal
 
 If doors is 'Zuhal' is prepared logic for self-completion.
 
-<img src={'\\assets\\docs\\features\\program blocks\\Safety\\SK\\Zuhal.jpg'}/>
+![img](../../../../assets/docs/generation/programBlocks/safety/sk/Zuhal.jpg)
