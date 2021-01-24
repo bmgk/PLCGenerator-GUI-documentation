@@ -13,20 +13,20 @@ module.exports = {
     Generation: [
       {
         'Program Blocks':[
+          'generation/programBlocks/ob/OB1',
           {
-            OB:['generation/programBlocks/ob/OB1'],
             Safety:['generation/programBlocks/safety/ARG',
             'generation/programBlocks/safety/SK',
             'generation/programBlocks/safety/NOT_HALT_ANTRIEBE',
-            'generation/programBlocks/safety/LAST_SK'],
-            POT:['generation/programBlocks/pot/POT'],      
-            Grundfunktionen:['generation/programBlocks/grundfunktionen/Grundfunktionen'],     
-            Vorwahlen:['generation/programBlocks/vorwahlen/Vorwahlen'],
-            Betriebsarten:['generation/programBlocks/betriebsarten/Betriebsarten'],
-            Stationen:['generation/programBlocks/stationen/Stationen'],
-            Roboter:['generation/programBlocks/roboter/Roboter'],
-            Schnittstellen:['generation/programBlocks/schnittstellen/Schnittstellen'],
-          }
+            'generation/programBlocks/safety/LAST_SK']
+          },
+          'generation/programBlocks/pot/POT',
+          'generation/programBlocks/grundfunktionen/Grundfunktionen',
+          'generation/programBlocks/vorwahlen/Vorwahlen',
+          'generation/programBlocks/betriebsarten/Betriebsarten',
+          'generation/programBlocks/stationen/Stationen',
+          'generation/programBlocks/roboter/Roboter',
+          'generation/programBlocks/schnittstellen/Schnittstellen'
         ],
         Tags:['generation/tags/Communication',
         'generation/tags/Inverters',
