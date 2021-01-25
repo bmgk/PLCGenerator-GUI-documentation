@@ -3,6 +3,8 @@ id: Betriebsarten
 title: Betriebsarten
 ---
 
+This description includes only the most important elements from the block. The rest is prepared for manual filling.
+
 ## Meldung
 
 On this moment exist only empty call (Feature in progress). 

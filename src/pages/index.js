@@ -17,53 +17,26 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Titule 1',
+    title: 'Created with PLC C# Library',
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Id minim irure cupidatat nostrud magna sunt commodo eiusmod exercitation
-        nostrud. Lorem nulla ut cupidatat id est laborum nulla veniam eiusmod ut
-        ullamco. Veniam ullamco cillum qui aliquip ullamco laboris Lorem
-        proident non. Culpa aute sit deserunt cupidatat ex exercitation Lorem
-        non dolor. Eiusmod ullamco eiusmod fugiat cupidatat proident aliquip id
-        aute. Amet laborum ex cillum sit est Lorem elit enim id dolore
-        consectetur. Irure non nisi cillum do. Qui eiusmod magna non ea occaecat
-        eu est quis. Ipsum adipisicing velit et irure.
+        Logic created in static typed c# library with functions that make your work easier.
+        Could help you create your own logic and use existed block from project library elements.                
       </>
     ),
   },
   {
-    title: 'Titule 2',
+    title: 'TIA PORTAL V16 SUPPORT',
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Id minim irure cupidatat nostrud magna sunt commodo eiusmod exercitation
-        nostrud. Lorem nulla ut cupidatat id est laborum nulla veniam eiusmod ut
-        ullamco. Veniam ullamco cillum qui aliquip ullamco laboris Lorem
-        proident non. Culpa aute sit deserunt cupidatat ex exercitation Lorem
-        non dolor. Eiusmod ullamco eiusmod fugiat cupidatat proident aliquip id
-        aute. Amet laborum ex cillum sit est Lorem elit enim id dolore
-        consectetur. Irure non nisi cillum do. Qui eiusmod magna non ea occaecat
-        eu est quis. Ipsum adipisicing velit et irure.
+        Library with support to TIA Portal V16. Make your work full automaticlly.
+        With defined to use most common elements. Library contain many tools. 
+        Such as Converter TIA PORTAL - C# class and C# project importer.   
       </>
     ),
-  },
-  {
-    title: 'Titule 3',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
-    description: (
-      <>
-        Id minim irure cupidatat nostrud magna sunt commodo eiusmod exercitation
-        nostrud. Lorem nulla ut cupidatat id est laborum nulla veniam eiusmod ut
-        ullamco. Veniam ullamco cillum qui aliquip ullamco laboris Lorem
-        proident non. Culpa aute sit deserunt cupidatat ex exercitation Lorem
-        non dolor. Eiusmod ullamco eiusmod fugiat cupidatat proident aliquip id
-        aute. Amet laborum ex cillum sit est Lorem elit enim id dolore
-        consectetur. Irure non nisi cillum do. Qui eiusmod magna non ea occaecat
-        eu est quis. Ipsum adipisicing velit et irure.
-      </>
-    ),
-  },
+  }
 ];
 
 function Feature({imageUrl, title, description}) {

@@ -9,6 +9,10 @@ Parameter is used to define Technology type.
 
 ![img](../../../../assets/docs/configuration/stations/inverters/Technology.jpg)
 
+:::note
+If is not set. Logic won't be generated.
+:::
+
 ---
 
 ## Definition

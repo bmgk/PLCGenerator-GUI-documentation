@@ -24,7 +24,14 @@ module.exports = {
           'generation/programBlocks/grundfunktionen/Grundfunktionen',
           'generation/programBlocks/vorwahlen/Vorwahlen',
           'generation/programBlocks/betriebsarten/Betriebsarten',
-          'generation/programBlocks/stationen/Stationen',
+          {
+            Stations:['generation/programBlocks/stationen/Sensors',
+            'generation/programBlocks/stationen/WerkzeugFreigabe',
+            'generation/programBlocks/stationen/Ventil',
+            'generation/programBlocks/stationen/Fm',
+            'generation/programBlocks/stationen/Inverter',          
+            'generation/programBlocks/stationen/RollGate',]
+          },          
           'generation/programBlocks/roboter/Roboter',
           'generation/programBlocks/schnittstellen/Schnittstellen'
         ],
