@@ -21,8 +21,8 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_mountain.svg',
     description: (
       <>
-        Logic created in static typed c# library with functions that make your work easier.
-        Could help you create your own logic and use existed block from project library elements.                
+        Logic created in static typed c# library with easy to use functions.
+        Make changes in generation result fast and simple.               
       </>
     ),
   },
@@ -31,9 +31,16 @@ const features = [
     imageUrl: 'img/undraw_docusaurus_tree.svg',
     description: (
       <>
-        Library with support to TIA Portal V16. Make your work full automaticlly.
-        With defined to use most common elements. Library contain many tools. 
-        Such as Converter TIA PORTAL - C# class and C# project importer.   
+        Library with support to TIA Portal V16. Make your work full automaticlly.         
+      </>
+    ),
+  },
+  {
+    title: 'Adaptable',
+    imageUrl: 'img/undraw_docusaurus_react.svg',
+    description: (
+      <>
+         Base project can be easilly change and adapted to any requiremnts.
       </>
     ),
   }

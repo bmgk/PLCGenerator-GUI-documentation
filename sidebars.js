@@ -9,7 +9,7 @@
 
 module.exports = {
   someSidebar: {
-    Docusaurus: ['doc1'],
+    Style: ['doc1'],
     Generation: [
       {
         'Program Blocks':[
@@ -31,8 +31,8 @@ module.exports = {
             'generation/programBlocks/stationen/Fm',
             'generation/programBlocks/stationen/Inverter',          
             'generation/programBlocks/stationen/RollGate',]
-          },          
-          'generation/programBlocks/roboter/Roboter',
+          },    
+          'generation/programBlocks/roboter/Roboter',        
           'generation/programBlocks/schnittstellen/Schnittstellen'
         ],
         Tags:['generation/tags/Communication',
