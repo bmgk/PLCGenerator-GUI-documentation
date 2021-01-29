@@ -63,11 +63,7 @@ module.exports = {
       }
     ],
     SpsMatrix:[
-      'spsMatrix/Fertigmeldung',
-      'spsMatrix/Interlock',
-      'spsMatrix/Tools',
-      'spsMatrix/StellungFreigabe',
-      'spsMatrix/WerkzeugFreigabe'
+      'SpsMatrix'
     ]
   },
 };

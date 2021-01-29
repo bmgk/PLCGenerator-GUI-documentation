@@ -1,5 +1,0 @@
----
-id: StellungFreigabe
-title: StellungFreigabe
----
-
