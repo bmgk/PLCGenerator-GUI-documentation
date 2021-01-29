@@ -21,4 +21,4 @@ If is not set. Logic won't be generated.
 | -------------     | :-----------:
 | Type              | Technology type (Adding more types soon)
 
-In [Inverter Tags](../../../generation/tags/Inverters) according the Technology symbols is generated.
+In [Inverter Tags](../../../generation/tags/Inverters) symbols for the selected technology are generated.

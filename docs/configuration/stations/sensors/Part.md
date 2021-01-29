@@ -5,7 +5,7 @@ title: Part
 
 ## Description
 
-Parameter is used to define which parts is detetcting this sensor.
+Parameter is used to define which parts is detecting this sensor.
 
 <img src={'\\assets\\docs\\configuration\\stations\\sensors\\Part.jpg'}/>
 

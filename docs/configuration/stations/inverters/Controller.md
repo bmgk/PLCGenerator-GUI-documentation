@@ -5,7 +5,7 @@ title: Controller
 
 ## Description
 
-Parameter is used to define controlled type.
+The parameter is used to define the controller type.
 
 ![img](../../../../assets/docs/configuration/stations/inverters/Controller.jpg)
 
