@@ -7,7 +7,7 @@ To speed up work with configuration it is possible to import SPS Matrix in 'xlsm
 
 # Basic
 
-List of robot is taken from Basic(first) sheet. It is importan like for every described here elements.
+List of robot is taken from Basic(first) sheet.
 
 ![img](../assets/docs/spsMatrix/Basic.jpg)
 
@@ -36,15 +36,15 @@ Tools is read from top to down.
 ![img](../assets/docs/spsMatrix/Tools.jpg)
 
 :::note
-Posiiton for tools will in address tags is automaticlly calculated.
+Position for tools will in address tags automatically calculated.
 :::
 
 ---
 
 ## Freigabe
 
-Freigabes readed station column and try to find structure element for it.
-After Freigabe index extracted is name and all after name is freigabe comment.
+From the station column the reader tries to find a structure element for it.
+The index is followed by the name, followed by the freigabe comment.
 
 
 |WerkzeugFreigabe Type   |StellungFreigabe Type |
@@ -58,15 +58,15 @@ After Freigabe index extracted is name and all after name is freigabe comment.
 ![img](../assets/docs/spsMatrix/Freigabe.jpg)
 
 :::note
-Check detected stations for 'Freigabe' after import.
+Check if the detected stations for "Freigabe" are read correctly after import.
 :::
 
 ---
 
 ## Interlocks
 
-Interlock is readed from left to right and looking for first not empty cell. 
-When interlock exist, read robot name from column name and basic on it create logic.
+Interlock reads left to right and looks for the first non-empty cell. 
+When there is a blockage, the name of the robot from the column at the top will be read and build logic from it.
 
 ![img](../assets/docs/spsMatrix/Interlock.jpg)
 

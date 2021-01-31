@@ -3,7 +3,7 @@ id: Sick
 title: SICK
 ---
 
-Base on tag 'SFIO' from Eplan will be genereted Sick communications symbols.
+Base on tag 'SFIO' from Eplan will be generated Sick communications symbols.
 
 Sample for 'SFIO' = %I2234.0
 

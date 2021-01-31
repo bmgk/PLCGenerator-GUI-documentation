@@ -10,11 +10,11 @@ Logic for Inverter is creating by combining three parameters.
 
 ## Controller
 
-On start created is logic for controller base on information from position.
+On start created is logic for controller based on information from position.
 
 ![img](../../../../assets/docs/generation/programBlocks/stationen/inverter/Pos.jpg)
-yarn 
-Dependly Controller Type this block can be diffrent.
+
+Dependly Controller Type this block can be different.
 
 ![img](../../../../assets/docs/generation/programBlocks/stationen/inverter/Controller.jpg)
 
@@ -22,7 +22,7 @@ Dependly Controller Type this block can be diffrent.
 
 ## Technology
 
-Same like in controller section there also exist inforamtion about position. 
+Same like in controller section there also exist information about position.
 
 ![img](../../../../assets/docs/generation/programBlocks/stationen/inverter/TechnologyPos.jpg)
 

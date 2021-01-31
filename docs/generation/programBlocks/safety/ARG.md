@@ -7,6 +7,6 @@ According to the standard, a call is prepared in the ARG for each appropriate FB
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/Structure.jpg)
 
-::: note
+:::note
 You have to create the communication blocks yourself
 :::

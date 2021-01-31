@@ -5,7 +5,7 @@ title: WerkzeugFreigabe
 
 ## PF
 
-If [WerkzeugFreigabe](../../../configuration/robots/WerkzeugFreigabe) is defined. All Profilfrei will be connected ther.   
+If [WerkzeugFreigabe](../../../configuration/robots/WerkzeugFreigabe) is defined. All 'Profilfrei' will be connected there.   
 
 ![img](../../../../assets/docs/generation/programBlocks/stationen/WerkzeugFreigabe/PF.jpg)
 

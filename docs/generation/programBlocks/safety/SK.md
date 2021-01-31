@@ -5,11 +5,9 @@ title: SK
 
 In this FB is generated blocks for servicing safety elements of zone.
 
----
-
 ## PLS, LVU
 
-On start is generated F_FRG for all 'Scanner' and 'Lichtvorhang'.
+First, 'F_FRG' is generated for all scanners and curtains.
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/sk/PLS.jpg)
 
@@ -17,9 +15,9 @@ On start is generated F_FRG for all 'Scanner' and 'Lichtvorhang'.
 
 ---
 
-## SF
+## Schutzfenster
 
-If zone contain 'Schutzfenster' for each is generated 'geschlosssen' logic
+If zone contain 'Schutzfenster' for each is generated 'geschlosssen' logic.
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/sk/RollGate.jpg)
 
@@ -33,6 +31,6 @@ In SK blocks on end is generated 'Freigabe Schutzkreis' logic with all doors for
 
 ### Zuhal
 
-If doors is 'Zuhal' is prepared logic for self-completion.
+If doors is 'Zuhal' is also prepared logic for self-completion.
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/sk/Zuhal.jpg)

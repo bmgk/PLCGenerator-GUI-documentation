@@ -5,11 +5,9 @@ title: NOT_HALT_ANTRIEBE
 
 Block for servicing Emeregency Stops
 
----
-
 ## PLC 
 
-On Start generated is logic for 'Not-Halt Bedienstation Gesamt'. Panels and other common Emergency stops. 
+First, logic is generated for "Not-Halt Bedienstation Gesamt" panels and other common emergency stops.
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/not_Halt_Antriebe/General.jpg)
 
@@ -23,6 +21,7 @@ For each zone prepared is pack of 'Not-Halt'
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/not_Halt_Antriebe/Stations.jpg)
 
+---
 
 ### Robots
 
@@ -32,10 +31,11 @@ For each zone prepared is pack of 'Not-Halt'
 
 ## Gesamt
 
-After Zones generated is summary networks  
+After 'Zones' generated is summary networks  
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/not_Halt_Antriebe/Gesamt.jpg)
 
+---
 
 On end logic for 'Antriebe Ein'
 

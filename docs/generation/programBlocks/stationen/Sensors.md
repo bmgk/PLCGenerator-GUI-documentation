@@ -3,7 +3,7 @@ id: Sensors
 title: Sensors
 ---
 
-Sensors are grouped by number, and summed to global Market. 
+Sensors are grouped by number, and summed to global marker. 
 
 KT is empty, for hand fill.
 
@@ -15,7 +15,7 @@ If [Part Parameters](../../../configuration/stations/sensors/Part) is defined. F
 
 ### Status
 
-For each sensors will be created status block. For hand fill.
+For each sensors will be created status block. For manual refilling.
 
 ![img](../../../../assets/docs/generation/programBlocks/stationen/sensors/Status.jpg)
 

@@ -3,17 +3,19 @@ id: Roboter
 title: Roboter
 ---
 
-Generator prepared all 'FC' structure, but there will be described only configurable elements.
+The generator prepares the entire "FC" structure, but only the configurable items will be described.
 
 ## Fertigmeldung
 
 Standard "FB_Rob_FM" call is always generated, but after filling [Robot Fm Parameter](../../../configuration/robots/Fertigmeldung)
-Status logic 
+will  be added:
+
+status logic
 
 ![img](../../../../assets/docs/generation/programBlocks/roboter/LogicFm.jpg)
 
 
-and comment to Robot db is also added.
+and comment to Robot db.
 
 ![img](../../../../assets/docs/generation/programBlocks/roboter/Fertigmeldung.jpg)
 
@@ -35,7 +37,7 @@ Generator also work with external interlocks between plcs.
 
 ## StellungFreigabe
 
-For each configured [element](../../../configuration/robots/StellungFreigabe). 
+For each configured [Stellung Freigabe](../../../configuration/robots/StellungFreigabe). 
 A network for manual filling will be prepared.
 
 ![img](../../../../assets/docs/generation/programBlocks/roboter/StellungFreigabe.jpg)
@@ -44,7 +46,7 @@ A network for manual filling will be prepared.
 
 ## WerkzeugFreigabe
 
-The block is generated always, but when [WerkzeugFreigabe Parameter](../../../configuration/robots/WerkzeugFreigabe).
+The block is generated always, but when [Werkzeug Freigabe](../../../configuration/robots/WerkzeugFreigabe).
 will be defined. Cfg and frg connection will be generated.
 
 ![img](../../../../assets/docs/generation/programBlocks/roboter/WerkzeugFreigabe.jpg)

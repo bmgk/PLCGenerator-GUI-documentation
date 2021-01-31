@@ -5,7 +5,7 @@ title: Ventil
 
 ## Summary
 
-For all ventil will be prepared basic summary network. For custom modyfication.
+A basic summary network will be prepared for all valves. For custom modifications.
 
 ![img](../../../../assets/docs/generation/programBlocks/stationen/Ventil/K10KSPV.jpg)
 
@@ -29,9 +29,7 @@ The default call is "FB_Ventil" but also supported (FB_Ventil_300, FB_Ventil_Sau
 ![img](../../../../assets/docs/generation/programBlocks/stationen/Ventil/Status.jpg)
 
 :::note
-
 The valve type is selected based on the existence of unique symbols in the tags.
-
 :::
 
 ---
