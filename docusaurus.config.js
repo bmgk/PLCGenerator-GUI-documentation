@@ -26,7 +26,7 @@ module.exports = {
       },
       items: [
         {
-          to: 'docs/',
+          to: 'docs/generation/programBlocks/ob/OB1',
           activeBasePath: 'docs',
           label: 'Docs',
           position: 'left',

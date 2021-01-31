@@ -15,7 +15,7 @@ On this moment exist only empty call (Feature in progress).
 
 ### NotHalt
 
-Each finded "Not-Halt" will be parted and connected to 'Meldung' blocks. 
+Each found "Not-Halt" will be parted and connected to 'Meldung' blocks. 
 
 ![img](../../../../assets/docs/generation/programBlocks/betriebsarten/NotHalt.jpg)
 
@@ -53,7 +53,7 @@ Each K10 stations will be connected to 'K10' zone.
 
 ### PF0WB
 
-Each robots will be connected to zone 'Profilfrei/Wartungsbereich'.
+Each robots from zone will be connected to 'Profilfrei/Wartungsbereich'.
 
 ![img](../../../../assets/docs/generation/programBlocks/betriebsarten/PF0WB.jpg)
 
@@ -69,7 +69,7 @@ Created each per zone. On this moment 'UBA ZONE' is not supported.
 
 ### LSP
 
-Dected starts button and lamp from zone will be detected to corresponding connectors.
+Detected 'start buttons' and 'lamps' from the zone will be connected to the appropriate connectors.
 
 ![img](../../../../assets/docs/generation/programBlocks/betriebsarten/LSP.jpg)
 
@@ -77,7 +77,7 @@ Dected starts button and lamp from zone will be detected to corresponding connec
 
 ### PFK91
 
-Each 'PFK91' lamp detected in zone will be ther connected.  
+Any "PFK 91" lamp detected in the zone will be connected here.
 
 ![img](../../../../assets/docs/generation/programBlocks/betriebsarten/PFK.jpg)
 

@@ -8,8 +8,7 @@
  */
 
 module.exports = {
-  someSidebar: {
-    Style: ['doc1'],
+  someSidebar: [{    
     Generation: [
       {
         'Program Blocks':[
@@ -61,9 +60,8 @@ module.exports = {
           }
         ]       
       }
-    ],
-    SpsMatrix:[
-      'SpsMatrix'
-    ]
+    ]    
   },
+  'SpsMatrix'
+],
 };

@@ -13,7 +13,7 @@ Logic for Inverter is creating by combining three parameters.
 On start created is logic for controller base on information from position.
 
 ![img](../../../../assets/docs/generation/programBlocks/stationen/inverter/Pos.jpg)
-
+yarn 
 Dependly Controller Type this block can be diffrent.
 
 ![img](../../../../assets/docs/generation/programBlocks/stationen/inverter/Controller.jpg)

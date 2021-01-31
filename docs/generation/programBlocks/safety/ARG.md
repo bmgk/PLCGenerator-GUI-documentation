@@ -3,6 +3,10 @@ id: ARG
 title: ARG
 ---
 
-According standard in ARG is prepared call for each suitble FB(SK, NOT_HALT_ANTRIEBE, LAST_SK) with call. 
+According to the standard, a call is prepared in the ARG for each appropriate FB (SK, NOT_HALT ANTRIEBE, LAST_SK) with all complementary logic.
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/Structure.jpg)
+
+::: note
+You have to create the communication blocks yourself
+:::
