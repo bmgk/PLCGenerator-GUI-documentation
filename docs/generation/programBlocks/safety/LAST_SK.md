@@ -17,9 +17,9 @@ To change place of generation see [Configuration](../../../configuration/safety/
 
 ---
 
-## Schutzfenster
+## Roll Gate
 
-For each RollGate in zone will be created basic logic for closing.
+For each 'Schutzfenster' in zone will be created basic logic for closing.
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/last_SK/Sf.jpg)
 
