@@ -8,60 +8,86 @@
  */
 
 module.exports = {
-  someSidebar: [{    
-    Generation: [
-      {
-        'Program Blocks':[
-          'generation/programBlocks/ob/OB1',
-          {
-            Safety:['generation/programBlocks/safety/ARG',
-            'generation/programBlocks/safety/SK',
-            'generation/programBlocks/safety/NOT_HALT_ANTRIEBE',
-            'generation/programBlocks/safety/LAST_SK']
-          },
-          'generation/programBlocks/pot/POT',
-          'generation/programBlocks/grundfunktionen/Grundfunktionen',
-          'generation/programBlocks/vorwahlen/Vorwahlen',
-          'generation/programBlocks/betriebsarten/Betriebsarten',
-          {
-            Stations:['generation/programBlocks/stationen/Sensors',
-            'generation/programBlocks/stationen/WerkzeugFreigabe',
-            'generation/programBlocks/stationen/Ventil',
-            'generation/programBlocks/stationen/Fm',
-            'generation/programBlocks/stationen/Inverter',          
-            'generation/programBlocks/stationen/RollGate',]
-          },    
-          'generation/programBlocks/roboter/Roboter',        
-          'generation/programBlocks/schnittstellen/Schnittstellen'
-        ],
-        Tags:['generation/tags/Communication',
-        'generation/tags/Inverters',
-        'generation/tags/Robots',
-        'generation/tags/Sick'
-        ]
-      }
-    ],
-    Configuration: [
-      {
-        PLC:['configuration/plc/Communication'],
-        Safety:['configuration/safety/MobilePanel',
-        'configuration/safety/RollGate'],
-        Robots:['configuration/robots/Fertigmeldung',
-        'configuration/robots/Interlock',
-        'configuration/robots/Tools',
-        'configuration/robots/StellungFreigabe',        
-        'configuration/robots/WerkzeugFreigabe'],       
-        Stations:['configuration/stations/Fertigmeldung',
-          {
-            Inverters:['configuration/stations/inverters/Controller',
-            'configuration/stations/inverters/Technology',
-            'configuration/stations/inverters/Position'],
-            Sensors:['configuration/stations/sensors/Part'],
-          }
-        ]       
-      }
-    ]    
-  },
-  'SpsMatrix'
-],
+  manual: [
+    {Home: ['manual/home/entry']},
+    {'Unused Symbols': ['manual/unusedSymbols/unusedSymbols']},
+    {
+      Structure: ['manual/structure/tree', 'manual/structure/panel'],
+    },
+    {
+      Menu: ['manual/settings/menu'],
+    },
+    {
+      General: ['manual/general/i18n'],
+    },
+  ],
+  chujowaDokumentacjaMarjanaKalety: [
+    {
+      Generation: [
+        {
+          'Program Blocks': [
+            'generation/programBlocks/ob/OB1',
+            {
+              Safety: [
+                'generation/programBlocks/safety/ARG',
+                'generation/programBlocks/safety/SK',
+                'generation/programBlocks/safety/NOT_HALT_ANTRIEBE',
+                'generation/programBlocks/safety/LAST_SK',
+              ],
+            },
+            'generation/programBlocks/pot/POT',
+            'generation/programBlocks/grundfunktionen/Grundfunktionen',
+            'generation/programBlocks/vorwahlen/Vorwahlen',
+            'generation/programBlocks/betriebsarten/Betriebsarten',
+            {
+              Stations: [
+                'generation/programBlocks/stationen/Sensors',
+                'generation/programBlocks/stationen/WerkzeugFreigabe',
+                'generation/programBlocks/stationen/Ventil',
+                'generation/programBlocks/stationen/Fm',
+                'generation/programBlocks/stationen/Inverter',
+                'generation/programBlocks/stationen/RollGate',
+              ],
+            },
+            'generation/programBlocks/roboter/Roboter',
+            'generation/programBlocks/schnittstellen/Schnittstellen',
+          ],
+          Tags: [
+            'generation/tags/Communication',
+            'generation/tags/Inverters',
+            'generation/tags/Robots',
+            'generation/tags/Sick',
+          ],
+        },
+      ],
+      Configuration: [
+        {
+          PLC: ['configuration/plc/Communication'],
+          Safety: [
+            'configuration/safety/MobilePanel',
+            'configuration/safety/RollGate',
+          ],
+          Robots: [
+            'configuration/robots/Fertigmeldung',
+            'configuration/robots/Interlock',
+            'configuration/robots/Tools',
+            'configuration/robots/StellungFreigabe',
+            'configuration/robots/WerkzeugFreigabe',
+          ],
+          Stations: [
+            'configuration/stations/Fertigmeldung',
+            {
+              Inverters: [
+                'configuration/stations/inverters/Controller',
+                'configuration/stations/inverters/Technology',
+                'configuration/stations/inverters/Position',
+              ],
+              Sensors: ['configuration/stations/sensors/Part'],
+            },
+          ],
+        },
+      ],
+    },
+    'SpsMatrix',
+  ],
 };
