@@ -27,20 +27,14 @@ module.exports = {
       items: [
         {
           to: 'docs/generation/programBlocks/ob/OB1',
-          activeBasePath: 'docs',
+          activeBasePath: 'docs/generation',
           label: 'Docs',
           position: 'left',
         },
         {
-          to: 'blog/',
-          activeBasePath: 'blog',
+          to: 'docs/manual/home/entry',
+          activeBasePath: 'docs/manual',
           label: 'Manual',
-          position: 'left',
-        },
-        {
-          to: 'blog/',
-          activeBasePath: 'blog',
-          label: 'Changelog',
           position: 'left',
         },
         // Please keep GitHub link to the right for consistency.
