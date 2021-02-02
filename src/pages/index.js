@@ -18,7 +18,7 @@ import styles from './styles.module.css';
 const features = [
   {
     title: 'Created with PLC C# Library',
-    imageUrl: 'img/undraw_docusaurus_mountain.svg',
+    imageUrl: 'img/PlcCreator.svg',
     description: (
       <>
         Logic created in static typed c# library with easy to use functions.

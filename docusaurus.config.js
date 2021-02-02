@@ -21,8 +21,8 @@ module.exports = {
     navbar: {
       title: 'VASS6 PLC Creator',
       logo: {
-        alt: 'PLCGenerator Logo',
-        src: 'img/logo.svg',
+        alt: 'PLC Creator Logo',
+        src: 'img/PlcCreator.svg',
       },
       items: [
         {
