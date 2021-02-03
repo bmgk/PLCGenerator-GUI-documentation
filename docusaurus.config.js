@@ -9,7 +9,7 @@
 
 module.exports = {
   title: 'VASS6 PLC Creator',
-  tagline: 'Documentation for VASS6 PLC Creator application',
+  tagline: 'Tool for generation PLC Program',
   url: 'https://plcgenerator-documentation.netlify.app/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
