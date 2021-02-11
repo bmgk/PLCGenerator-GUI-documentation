@@ -34,3 +34,9 @@ In SK blocks on end is generated 'Freigabe Schutzkreis' logic with all doors for
 If doors is 'Zuhal' is also prepared logic for self-completion.
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/sk/Zuhal.jpg)
+
+## Flap(Pendelklappe)
+
+F_Frg will be created for each safety flaps.
+
+![img](../../../../assets/docs/generation/programBlocks/safety/sk/Flap.jpg)

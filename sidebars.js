@@ -9,8 +9,8 @@
 
 module.exports = {
   manual: [
-    {Home: ['manual/home/entry']},
-    {'Unused Symbols': ['manual/unusedSymbols/unusedSymbols']},
+    { Home: ['manual/home/entry'] },
+    { 'Unused Symbols': ['manual/unusedSymbols/unusedSymbols'] },
     {
       Structure: ['manual/structure/tree', 'manual/structure/panel'],
     },
@@ -41,6 +41,11 @@ module.exports = {
             'generation/programBlocks/betriebsarten/Betriebsarten',
             {
               Stations: [
+                {
+                  Special: [
+                    'generation/programBlocks/stationen/special/Conveyor'
+                  ]
+                },
                 'generation/programBlocks/stationen/Sensors',
                 'generation/programBlocks/stationen/WerkzeugFreigabe',
                 'generation/programBlocks/stationen/Ventil',
