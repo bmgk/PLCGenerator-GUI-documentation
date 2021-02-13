@@ -66,7 +66,7 @@ function Home() {
   return (
     <Layout
       title={`${siteConfig.title}`}
-      description="plc generator optimalization c# tia siemens">
+      description="Tool for generation PLC Program">
       <header className={clsx('hero hero--primary', styles.heroBanner)}>
         <div className="container">
           <h1 className="hero__title">{siteConfig.title}</h1>
