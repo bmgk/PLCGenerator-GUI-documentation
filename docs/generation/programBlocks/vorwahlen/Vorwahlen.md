@@ -1,6 +1,6 @@
 ---
 id: Vorwahlen
-title: Vorwahlen
+title: Preselect "Vorwahlen"
 ---
 
 ## K0
@@ -13,7 +13,7 @@ On start is prepared 'Steuerspannung' call.
 
 ## Zone 
 
-### Wasser
+### Water "Wasser"
 
 If Zone contain robot, 'FB_KuehlwasserVW_V02' will be generated.
 
@@ -21,7 +21,7 @@ If Zone contain robot, 'FB_KuehlwasserVW_V02' will be generated.
 
 ---
 
-### Luft
+### Air "Luft"
 
 By default, 'FB_Druckluft_VW370' is created for each zone.
 
@@ -29,7 +29,7 @@ By default, 'FB_Druckluft_VW370' is created for each zone.
 
 ---
 
-## Belechtung
+## Lighting "Beleuchtung"
 
 Block will be generated for each lamp.
 
@@ -37,7 +37,7 @@ Block will be generated for each lamp.
 
 ---
 
-## Absaugung
+## Suction "Absaugung"
 
 For each tag 'MF200' will be called 'FB_Absaugung'. 
 

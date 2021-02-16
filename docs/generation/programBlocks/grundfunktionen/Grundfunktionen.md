@@ -1,13 +1,13 @@
 ---
 id: Grundfunktionen
-title: Grundfunktionen
+title: Basic functions "Grundfunktionen"
 ---
 
 
 This block may differ depending on the 'GrundProject'. 
 Therefore, only the most important elements will be described here
 
-## Steuerung
+## Control "Steuerung"
 
 On start exist prepared network for 'Passivierung'. Which must be completed by hand.
 
@@ -35,7 +35,7 @@ If mobile panels exist Network 'FB_RemoteOperate' will be created.
 
 ---
 
-## Meldung
+## Message "Meldung"
 
 On this moment exist only empty call (Feature in progress). 
 

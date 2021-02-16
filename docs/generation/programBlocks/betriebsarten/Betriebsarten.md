@@ -1,11 +1,11 @@
 ---
 id: Betriebsarten
-title: Betriebsarten
+title: Operating modes "Betriebsarten"
 ---
 
 This description includes only the most important elements from the block. The rest is prepared for manual filling.
 
-## Meldung
+## Message "Meldung"
 
 On this moment exist only empty call (Feature in progress). 
 
@@ -13,7 +13,7 @@ On this moment exist only empty call (Feature in progress).
 
 ---
 
-### NotHalt
+### Emergency stop "NotHalt"
 
 Each found "Not-Halt" will be parted and connected to 'Meldung' blocks. 
 
@@ -83,7 +83,7 @@ Any "PFK 91" lamp detected in the zone will be connected here.
 
 ---
 
-## FrgNotHalt
+## Release Emergency stop "FrgNotHalt"
 
 Summary network for Global 'FrgNotHalt'.
 

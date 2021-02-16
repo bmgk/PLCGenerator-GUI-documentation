@@ -15,7 +15,7 @@ First, 'F_FRG' is generated for all scanners and curtains.
 
 ---
 
-## Schutzfenster
+## RollGate "Schutzfenster"
 
 If zone contain 'Schutzfenster' for each is generated 'geschlosssen' logic.
 

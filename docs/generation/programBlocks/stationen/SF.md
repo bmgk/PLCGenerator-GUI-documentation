@@ -1,6 +1,6 @@
 ---
 id: RollGate
-title: Roll Gate
+title: Roll Gate "Schutzfenster"
 ---
 
 ## Status

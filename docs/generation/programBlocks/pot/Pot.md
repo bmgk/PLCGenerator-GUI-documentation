@@ -1,6 +1,6 @@
 ---
 id: POT
-title: POT
+title: GHOST "POT"
 ---
 
 Comming soon...

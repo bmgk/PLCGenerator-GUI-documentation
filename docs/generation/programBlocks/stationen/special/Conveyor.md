@@ -1,6 +1,6 @@
 ---
 id: Conveyor
-title: Conveyor
+title: Conveyor "Stauband"
 ---
 
 ## Lubricator (Schmierung)

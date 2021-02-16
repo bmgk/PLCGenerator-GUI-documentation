@@ -1,6 +1,6 @@
 ---
 id: Inverter
-title: Inverter
+title: Drives "Antriebe"
 ---
 
 Logic for Inverter is creating by combining three parameters. 

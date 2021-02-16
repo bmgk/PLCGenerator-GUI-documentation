@@ -29,7 +29,7 @@ For each zone prepared is pack of 'Not-Halt'
 
 ---
 
-## Gesamt
+## Total "Gesamt"
 
 After 'Zones' generated is summary networks  
 
