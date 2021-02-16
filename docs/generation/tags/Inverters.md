@@ -1,6 +1,6 @@
 ---
 id: Inverters
-title: Inverters
+title: Drives
 ---
 
 All defined inverter technology 'Foerdertechnik' will has generated tags.  

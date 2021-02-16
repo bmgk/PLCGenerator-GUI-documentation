@@ -1,6 +1,6 @@
 ---
 id: Roboter
-title: Roboter
+title: Robot
 ---
 
 The generator prepares the entire "FC" structure, but only the configurable items will be described.
