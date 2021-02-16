@@ -5,7 +5,7 @@ title: Robot
 
 The generator prepares the entire "FC" structure, but only the configurable items will be described.
 
-## Fertigmeldung
+## FM
 
 Standard "FB_Rob_FM" call is always generated, but after filling [Robot Fm Parameter](../../../configuration/robots/Fertigmeldung)
 will  be added:
@@ -21,7 +21,7 @@ and comment to Robot db.
 
 ---
 
-## Interlock
+## Interlock "Verriegelung"
 
 After filling in the [Interlock Parameter](../../../configuration/robots/Interlock) field. A block call will be generated with the position assigned to the robots.
 
