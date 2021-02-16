@@ -1,7 +1,7 @@
 ---
 id: Interlock
-title: Interlock
----
+title: Interlock "Verriegelung"
+--- 
 
 ## Description
 

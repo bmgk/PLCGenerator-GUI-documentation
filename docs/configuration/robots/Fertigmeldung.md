@@ -1,6 +1,6 @@
 ---
 id: Fertigmeldung
-title: Fertigmeldung
+title: FM
 ---
 
 ## Description

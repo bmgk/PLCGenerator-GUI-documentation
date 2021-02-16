@@ -5,7 +5,7 @@ title: Robots
 
 Symbols will be generated for all robots in the order by name, taking into account parameter configuration.
 
-## Interlock
+## Interlock "Verriegelung"
 
 If [Interlock Parameter](../../configuration/robots/Interlock) is configured.
 In symbols comment will be set information about collision robot.

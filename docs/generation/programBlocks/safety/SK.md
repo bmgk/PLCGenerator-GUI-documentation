@@ -35,7 +35,7 @@ If doors is 'Zuhal' is also prepared logic for self-completion.
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/sk/Zuhal.jpg)
 
-## Flap(Pendelklappe)
+## Flap "Pendelklappe"
 
 F_Frg will be created for each safety flaps.
 

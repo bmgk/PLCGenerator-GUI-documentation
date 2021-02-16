@@ -7,7 +7,7 @@ In this FB will be defined behavior of safety zone.
 
 ## Mobile Panel
 
-On start will be prepared logic for zusti.
+On start will be prepared logic for "zusti".
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/last_SK/MobilePanel.jpg)
 
@@ -17,7 +17,7 @@ To change place of generation see [Configuration](../../../configuration/safety/
 
 ---
 
-## Roll Gate
+## RollGate "Schutzfenster"
 
 For each 'Schutzfenster' in zone will be created basic logic for closing.
 
@@ -45,7 +45,7 @@ If the station contains the element "K100", the logic for handling will be gener
 
 ---
 
-### Inverter
+### Drive
 
 ![img](../../../../assets/docs/generation/programBlocks/safety/last_SK/Inverter.jpg)
 

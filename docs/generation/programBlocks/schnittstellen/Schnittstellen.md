@@ -1,6 +1,6 @@
 ---
 id: Schnittstellen
-title: Communication "Schnittstellen" 
+title: Interface "Schnittstellen" 
 ---
 
 Comming soon...

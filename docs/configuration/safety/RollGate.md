@@ -1,6 +1,6 @@
 ---
 id: RollGate
-title: RollGate
+title: RollGate "Schutzfenster"
 ---
 
 ## Description

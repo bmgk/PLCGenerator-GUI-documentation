@@ -63,7 +63,7 @@ Check if the detected stations for "Freigabe" are read correctly after import.
 
 ---
 
-## Interlocks
+## Interlocks "Verriegelung"
 
 Interlock reads left to right and looks for the first non-empty cell. 
 When there is a blockage, the name of the robot from the column at the top will be read and build logic from it.

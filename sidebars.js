@@ -82,7 +82,7 @@ module.exports = {
           Stations: [
             'configuration/stations/Fertigmeldung',
             {
-              Inverters: [
+              Drives: [
                 'configuration/stations/inverters/Controller',
                 'configuration/stations/inverters/Technology',
                 'configuration/stations/inverters/Position',

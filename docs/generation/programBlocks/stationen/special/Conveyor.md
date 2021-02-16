@@ -3,7 +3,7 @@ id: Conveyor
 title: Conveyor "Stauband"
 ---
 
-## Lubricator (Schmierung)
+## Lubricator "Schmierung"
 
 Each lubricator will be created standard control logic.
 
@@ -11,7 +11,7 @@ Each lubricator will be created standard control logic.
 
 ---
 
-## Flap (Pendelklappe)
+## Flap "Pendelklappe"
 
 If flap tags end with a/b, symbols will be connected to F_IN_1/2 else is used F_IN.
 
