@@ -17,7 +17,7 @@ import styles from './styles.module.css';
 
 const features = [
   {
-    title: 'Created with PLC C# Library',
+    title: 'Created with PLC TIA .Net Library',
     imageUrl: 'img/PlcCreator.svg',
     description: (
       <>
