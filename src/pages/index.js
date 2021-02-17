@@ -28,7 +28,7 @@ const features = [
   },
   {
     title: 'TIA PORTAL V16 SUPPORT',
-    imageUrl: 'img/undraw_docusaurus_tree.svg',
+    imageUrl: 'img/TiaV16.svg',
     description: (
       <>
         Library with support to TIA Portal V16. Make your work full
