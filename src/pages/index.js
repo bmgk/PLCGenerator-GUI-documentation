@@ -17,6 +17,18 @@ import styles from './styles.module.css';
 
 const features = [
   {
+    title: 'BMGK',
+    imageUrl: 'img/BMGK.svg',
+    href: 'https://bmgk.tech/en',
+    description: (
+      <>
+        We are software developers with experience in industrial and ambition to
+        move automation on upper level. We create technological solutions that
+        help you use your full potential.
+      </>
+    ),
+  },
+  {
     title: 'Created with PLC TIA .Net Library',
     imageUrl: 'img/PlcCreator.svg',
     description: (
@@ -37,24 +49,101 @@ const features = [
     ),
   },
   {
-    title: 'Adaptable',
-    imageUrl: 'img/undraw_docusaurus_react.svg',
+    title: 'Application adventages',
+    imageUrl: 'img/undraw_ideation_re_8i2h.svg',
     description: (
-      <>Base project can be easilly change and adapted to any requiremnts.</>
+      <>
+        Let us list adventages of VASS6 PLC Creator 
+      </>
+    ),
+  },
+  {
+    title: 'SPEED',
+    imageUrl: 'img/undraw_Account_re_o7id.svg',
+    description: <>Speeds up the PLC writing process. </>,
+  },
+  {
+    title: 'BETTER',
+    imageUrl: 'img/undraw_Balloons_re_8ymj.svg',
+    description: <>Better and more convenient form of programming. </>,
+  },
+  {
+    title: 'COSTS',
+    imageUrl: 'img/undraw_Bookmarks_re_mq1u.svg',
+    description: <>Reduction of PLC program writing costs. </>,
+  },
+  {
+    title: 'QUALITY',
+    imageUrl: 'img/undraw_Content_creator_re_pt5b.svg',
+    description: <>Improving the quality of logic within the standard.</>,
+  },
+  {
+    title: 'REDUCE COPYING ERRORS',
+    imageUrl: 'img/undraw_Goals_re_lu76.svg',
+    description: (
+      <>
+        Avoids the often and tedious process of copying and pasting and the
+        associated errors.
+      </>
+    ),
+  },
+  {
+    title: 'QUALITY',
+    imageUrl: 'img/undraw_Plans_re_s9mf.svg',
+    description: <>Improving the quality of the PLC program.</>,
+  },
+  {
+    title: 'MANAGEMENT',
+    imageUrl: 'img/undraw_Selecting_team_re_ndkb.svg',
+    description: (
+      <>
+        Facilitating the management of the program languages (generating web
+        titles and other texts in standardized forms).
+      </>
+    ),
+  },
+  {
+    title: 'STANDARD',
+    imageUrl: 'img/undraw_Sorting_thoughts_re_fgli.svg',
+    description: (
+      <>
+        Better management of know-how for a specific technology within the
+        standard.
+      </>
+    ),
+  },
+  {
+    title: 'FACILITATION',
+    imageUrl: 'img/undraw_Success_factors_re_ce93.svg',
+    description: (
+      <>
+        Facilitation of the programming process (reduction of required offline
+        competencies).
+      </>
     ),
   },
 ];
 
-function Feature({imageUrl, title, description}) {
+function Feature({imageUrl, title, description, href}) {
   const imgUrl = useBaseUrl(imageUrl);
   return (
     <div className={clsx('col col--4', styles.feature)}>
       {imgUrl && (
         <div className="text--center">
-          <img className={styles.featureImage} src={imgUrl} alt={title} />
+          <a href={href} target="_blank" rel="noreferrer">
+            <img className={styles.featureImage} src={imgUrl} alt={title} />
+          </a>
         </div>
       )}
-      <h3>{title}</h3>
+      {href ? (
+        <h3>
+          <a href={href} target="_blank" rel="noreferrer">
+            {title}
+          </a>
+        </h3>
+      ) : (
+        <h3>{title}</h3>
+      )}
       <p>{description}</p>
     </div>
   );
@@ -88,8 +177,9 @@ function Home() {
           <section className={styles.features}>
             <div className="container">
               <div className="row">
-                {features.map(({title, imageUrl, description}) => (
+                {features.map(({title, imageUrl, description, href}) => (
                   <Feature
+                    href={href}
                     key={title}
                     title={title}
                     imageUrl={imageUrl}
