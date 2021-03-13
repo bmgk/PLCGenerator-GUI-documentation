@@ -31,6 +31,7 @@ const features = [
   {
     title: 'Created with PLC TIA .Net Library',
     imageUrl: 'img/PlcCreator.svg',
+    href: 'https://vass6plccreator.bmgk.tech/',
     description: (
       <>
         Logic created in static typed c# library with easy to use functions.
@@ -41,6 +42,7 @@ const features = [
   {
     title: 'TIA PORTAL V16 SUPPORT',
     imageUrl: 'img/TiaV16.svg',
+    href: 'https://plctianetlibrary.bmgk.tech/',
     description: (
       <>
         Library with support to TIA Portal V16. Make your work full
@@ -51,11 +53,7 @@ const features = [
   {
     title: 'Application adventages',
     imageUrl: 'img/undraw_ideation_re_8i2h.svg',
-    description: (
-      <>
-        Let us list adventages of VASS6 PLC Creator 
-      </>
-    ),
+    description: <>Let us list adventages of VASS6 PLC Creator</>,
   },
   {
     title: 'SPEED',
