@@ -54,6 +54,10 @@ module.exports = {
           // Please do not remove the privacy and terms, it's a legal requirement.
           items: [
             {
+              label: 'Contact',
+              href: 'https://bmgk.tech/en',
+            },
+            {
               label: 'Privacy',
               href: 'https://opensource.facebook.com/legal/privacy/',
             },
