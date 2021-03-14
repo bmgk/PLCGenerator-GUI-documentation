@@ -4,7 +4,7 @@ title: SpsMatrix
 ---
 
 To speed up work with configuration it is possible to import SPS Matrix in 'xlsm' file.
- 
+
 # Basic
 
 List of robot is taken from Basic(first) sheet.

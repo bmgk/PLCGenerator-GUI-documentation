@@ -16,22 +16,10 @@ import useBaseUrl from '@docusaurus/useBaseUrl';
 import styles from './styles.module.css';
 
 const features = [
-  {
-    title: 'BMGK',
-    imageUrl: 'img/BMGK.svg',
-    href: 'https://bmgk.tech/en',
-    description: (
-      <>
-        We are software developers with experience in industrial and ambition to
-        move automation on upper level. We create technological solutions that
-        help you use your full potential.
-      </>
-    ),
-  },
-  {
+    {
     title: 'Created with PLC TIA .Net Library',
     imageUrl: 'img/PlcCreator.svg',
-    href: 'https://vass6plccreator.bmgk.tech/',
+    href: 'https://plctianetlibrary.bmgk.tech/',
     description: (
       <>
         Logic created in static typed c# library with easy to use functions.
@@ -41,8 +29,7 @@ const features = [
   },
   {
     title: 'TIA PORTAL V16 SUPPORT',
-    imageUrl: 'img/TiaV16.svg',
-    href: 'https://plctianetlibrary.bmgk.tech/',
+    imageUrl: 'img/TiaV16.svg',    
     description: (
       <>
         Library with support to TIA Portal V16. Make your work full
