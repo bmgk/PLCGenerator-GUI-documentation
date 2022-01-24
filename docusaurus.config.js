@@ -36,6 +36,11 @@ module.exports = {
           activeBasePath: 'docs/manual',
           label: 'Manual',
           position: 'left',
+        },        
+        {
+          href: 'https://bmgk.tech/en',
+          label: 'BMGK',
+          position: 'right',
         },
         // Please keep GitHub link to the right for consistency.
         {
@@ -55,6 +60,7 @@ module.exports = {
           items: [
             {
               label: 'Contact',
+              src: 'img/BMGK.svg',
               href: 'https://bmgk.tech/en',
             },
             {
@@ -69,9 +75,9 @@ module.exports = {
         },
       ],
       logo: {
-        alt: 'Facebook Open Source Logo',
-        src: 'img/oss_logo.png',
-        href: 'https://opensource.facebook.com',
+        alt: 'BMGK Logo',
+        src: 'img/BMGK.svg',
+        href: 'https://bmgk.tech/en',
       },
       // Please do not remove the credits, help to publicize Docusaurus :)
       copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
