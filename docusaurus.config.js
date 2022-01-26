@@ -32,7 +32,7 @@ module.exports = {
           position: 'left',
         },
         {
-          to: 'docs/manual/home/entry',
+          to: 'docs/manual/home/mainView',
           activeBasePath: 'docs/manual',
           label: 'Manual',
           position: 'left',
@@ -80,7 +80,7 @@ module.exports = {
         href: 'https://bmgk.tech/en',
       },
       // Please do not remove the credits, help to publicize Docusaurus :)
-      copyright: `Copyright © ${new Date().getFullYear()} Facebook, Inc. Built with Docusaurus.`,
+      copyright: `Copyright © ${new Date().getFullYear()} BMGK, Inc. Built with Docusaurus.`,
     },
   },
   presets: [

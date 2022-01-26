@@ -9,14 +9,12 @@
 
 module.exports = {
   manual: [
-    { Home: ['manual/home/entry'] },
-    { 'Unused Symbols': ['manual/unusedSymbols/unusedSymbols'] },
-    {
-      Structure: ['manual/structure/tree', 'manual/structure/panel'],
+    { 
+      Entry: ['manual/home/mainView', 'manual/home/createLine'] 
     },
     {
-      Menu: ['manual/settings/menu'],
-    },
+      Editor: ['manual/editor/mainView', 'manual/editor/structure', 'manual/editor/unusedSymbols', 'manual/editor/lackOfSymbols', 'manual/editor/process']
+    },   
     {
       General: ['manual/general/i18n'],
     },
