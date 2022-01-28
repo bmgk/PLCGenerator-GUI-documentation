@@ -8,18 +8,15 @@
  */
 
 module.exports = {
-  manual: [
+  Manual: [
     { 
       Entry: ['manual/home/mainView', 'manual/home/createLine'] 
     },
     {
       Editor: ['manual/editor/mainView', 'manual/editor/structure', 'manual/editor/unusedSymbols', 'manual/editor/lackOfSymbols', 'manual/editor/process']
-    },   
-    {
-      General: ['manual/general/i18n'],
     },
   ],
-  chujowaDokumentacjaMarjanaKalety: [
+  Docu: [
     {
       Generation: [
         {
