@@ -15,6 +15,7 @@ module.exports = {
     {
       Editor: ['manual/editor/mainView', 'manual/editor/structure', 'manual/editor/unusedSymbols', 'manual/editor/lackOfSymbols', 'manual/editor/process']
     },
+    'manual/importer'
   ],
   Docu: [
     {
